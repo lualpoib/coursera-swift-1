@@ -2,16 +2,16 @@ import UIKit
 
 for i in 0...100 {
 	
-	if (i%5)==0)  	//divisible para 5
+	if (i%5)==0  	//divisible para 5
 		print("# \(i)  + “Bingo!!!” ")
 
-	if (i%2)==0)  	//es par
+	if (i%2)==0  	//es par
 		print("# \(i)  + par!!!” ")
 
-	if (i%2)==1)  	//es impar
+	if (i%2)==1  	//es impar
 		print("# \(i)  + impar!!!” ")
 
-	if (i == 30...40)  	//Rango
+	if (i >= 30) && (i<=40)  	//Rango
 		print("# \(i)  + Viva Swift!!!” ")
 		
 }
